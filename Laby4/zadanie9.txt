@@ -1,0 +1,11 @@
+Dla x0 = 6 miejsce zerowe zostało bliżej sprecyzowane niżeli dla 4.5, w którym został podany większy przedział - proces ten wykazał swoją niedokładność.
+
+Funkcja fzero wydaje się bardziej skuteczniejsza dla wartości 6. Przy wartości 4.5 funkcja wykazał trudności, pewnie związana ze złożonością obliczeń lub możliwością wystąpienia punktu osobliwego.
+
+Wyniki dla 6:
+"Zero found in the interval [5.66059, 6.33941]"
+
+Wyniki dla 4.5:
+"Current point x may be near a singular point. The interval [4.24544, 4.75456] 
+reduced to the requested tolerance and the function changes sign in the interval,
+but f(x) increased in magnitude as the interval reduced."
